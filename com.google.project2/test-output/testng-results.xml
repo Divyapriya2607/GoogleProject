@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-08T12:52:50Z" name="Default suite" finished-at="2024-09-08T12:53:00Z" duration-ms="9751">
+  <suite started-at="2024-09-16T10:51:46Z" name="Google Functionality" finished-at="2024-09-16T10:51:53Z" duration-ms="7256">
     <groups>
     </groups>
-    <test started-at="2024-09-08T12:52:50Z" name="Default test" finished-at="2024-09-08T12:53:00Z" duration-ms="9751">
-      <class name="testCases.SearchPageTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testCases.SearchPageTest@235ecd9f]" started-at="2024-09-08T18:22:46Z" name="beforeSuite" finished-at="2024-09-08T18:22:50Z" duration-ms="4720" status="PASS">
+    <test started-at="2024-09-16T10:51:46Z" name="Functional Test" finished-at="2024-09-16T10:51:53Z" duration-ms="7256">
+      <class name="testCases.FacebookLoginPageTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testCases.FacebookLoginPageTest@235ecd9f]" started-at="2024-09-16T16:21:44Z" name="beforeSuite" finished-at="2024-09-16T16:21:46Z" duration-ms="2472" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method signature="launchURL()[pri:1, instance:testCases.SearchPageTest@235ecd9f]" started-at="2024-09-08T18:22:50Z" name="launchURL" finished-at="2024-09-08T18:22:53Z" duration-ms="2745" status="PASS">
+        <test-method signature="launchURL()[pri:1, instance:testCases.FacebookLoginPageTest@235ecd9f]" started-at="2024-09-16T16:21:46Z" name="launchURL" finished-at="2024-09-16T16:21:47Z" duration-ms="1170" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchURL -->
-        <test-method signature="pageLogin()[pri:2, instance:testCases.SearchPageTest@235ecd9f]" started-at="2024-09-08T18:22:53Z" name="pageLogin" finished-at="2024-09-08T18:23:00Z" duration-ms="6968" status="PASS">
+        <test-method signature="pageLogin()[pri:2, instance:testCases.FacebookLoginPageTest@235ecd9f]" started-at="2024-09-16T16:21:47Z" name="pageLogin" finished-at="2024-09-16T16:21:53Z" duration-ms="6053" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageLogin -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testCases.SearchPageTest@235ecd9f]" started-at="2024-09-08T18:23:00Z" name="afterSuite" finished-at="2024-09-08T18:23:00Z" duration-ms="236" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testCases.FacebookLoginPageTest@235ecd9f]" started-at="2024-09-16T16:21:53Z" name="afterSuite" finished-at="2024-09-16T16:21:54Z" duration-ms="773" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- testCases.SearchPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- testCases.FacebookLoginPageTest -->
+    </test> <!-- Functional Test -->
+  </suite> <!-- Google Functionality -->
 </testng-results>

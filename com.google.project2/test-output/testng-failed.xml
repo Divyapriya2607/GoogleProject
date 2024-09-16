@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Google Functionality]" guice-stage="DEVELOPMENT">
+  <test name="Functional Test(failed)">
+    <classes>
+      <class name="testCases.SearchPageTest">
+        <methods>
+          <include name="pageLogin"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- testCases.SearchPageTest -->
+    </classes>
+  </test> <!-- Functional Test(failed) -->
+</suite> <!-- Failed suite [Google Functionality] -->

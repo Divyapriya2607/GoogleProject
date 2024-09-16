@@ -70,6 +70,10 @@ public class BaseClass extends GlobalVariables{
 		boolean status=element.isDisplayed();
 		return status;
 	}
-
+	
+	public boolean isDisplayed(WebElement element) {
+		boolean status=element.isDisplayed();
+		return status;
+	}
 	
 }
