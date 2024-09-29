@@ -1,6 +1,7 @@
 package testCases;
 
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
@@ -13,7 +14,7 @@ import utility.GlobalVariables;
 public class SearchPageTest {
 
 //	Test cases
-	
+
 	private WebDriver driver = null;
 	BrowserConfig browserConfig = new BrowserConfig();
 	GoogleSearchPageActions searchPageActions;
@@ -39,6 +40,13 @@ public class SearchPageTest {
 		searchPageActions.get_listOfElements();
 		Thread.sleep(6000);
 	}
+
+	@Test(priority = 3)
+	public void searchFunctionality() {
+		searchPageActions.enter_search("Selenium");
+		searchPageActions.searchFunctionality();
+	}
+
 	@AfterSuite
 	public void afterSuite() {
 		this.driver = GlobalVariables.driver;

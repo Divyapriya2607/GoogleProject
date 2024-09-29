@@ -5,8 +5,8 @@
     <classes>
       <class name="testCases.SearchPageTest">
         <methods>
-          <include name="pageLogin"/>
           <include name="afterSuite"/>
+          <include name="searchFunctionality"/>
           <include name="beforeSuite"/>
         </methods>
       </class> <!-- testCases.SearchPageTest -->

@@ -3,8 +3,8 @@
 <suite name="Google Functionality">
   <test name="Functional Test">
     <classes>
-      <!-- <class name="testCases.SearchPageTest"/>-->
-      <class name="testCases.FacebookLoginPageTest"/>
+      <class name="testCases.SearchPageTest"/>
+      <!--<class name="testCases.FacebookLoginPageTest"/>-->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
